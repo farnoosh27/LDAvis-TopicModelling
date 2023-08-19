@@ -3,7 +3,7 @@ This code is an example of using the Gensim library to perform topic modeling an
 In this notebook, I will walk through the tutorial provided at this link (https://neptune.ai/blog/pyldavis-topic-modelling-exploration-tool-that-every-nlp-data-scientist-should-know) and try to run a part of it in GoogleColab
 ## What is Topic Modelling?
 ## What is LDA?
-### what are alpha and eta parameters?
+### What are alpha and eta parameters?
 ### Benefits of having an LDA?
 ### What is pyLDAvis?
-### what 
+### what is the lambda parameter in the visualization?
