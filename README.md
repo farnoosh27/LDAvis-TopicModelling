@@ -7,4 +7,4 @@ In this notebook, I will walk through the tutorial provided at this link (https:
 ### What are alpha and eta parameters?
 ### Benefits of having an LDA?
 ### What is pyLDAvis?
-### what is the lambda parameter in the visualization?
+### What is the lambda parameter in the visualization?
