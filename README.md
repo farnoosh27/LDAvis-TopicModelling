@@ -7,4 +7,6 @@ In this notebook, I will walk through the tutorial provided at this link (https:
 ### What are alpha and eta parameters?
 ### Benefits of having an LDA?
 ### What is pyLDAvis?
-### What is the lambda parameter in the visualization?
+### What is the λ (Lambda) parameter in the visualization?
+
+In ldavis, λ controls the relevance of terms within a topic. It is a parameter that you can adjust to influence which terms are shown for each topic in the visualization. Higher values of λ will prioritize terms that are more strongly associated with the topic, potentially leading to a more focused and coherent representation of the topic. Lower values of λ will result in a broader range of terms being displayed for the topic.
