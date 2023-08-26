@@ -24,10 +24,7 @@ import pyLDAvis.gensim
 import matplotlib.pyplot as plt
 import pandas as pd
 
-"""If you face ```AttributeError: module 'numpy' has no attribute '_no_nep50_warning``` error, please restart and run all the notebook again.
 
-## Downloading the tweets data
-"""
 
 # the latest version of the tweets
 #tweets = pd.read_csv('/content/gdrive/MyDrive/LDA/dp-export-77711e6c-e900-4724-9d88-06795ddbcd9a.csv')
