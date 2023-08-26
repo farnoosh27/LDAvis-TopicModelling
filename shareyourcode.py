@@ -78,11 +78,6 @@ print(corpus[:1])
 
 [[(id2word[i], freq) for i, freq in doc] for doc in corpus[:1]]
 
-"""We use gensim.models.ldamode [link text](https://radimrehurek.com/gensim/models/ldamodel.html#gensim.models.ldamodel.LdaModel) topic modelling library
-
-## Training the LDAmodel
-Using LDA every topic is presented as a distribution of words
-"""
 
 # Build LDA model
 lda_model = LdaModel(corpus=corpus,
@@ -112,10 +107,5 @@ coherence_lda = coherence_model_lda.get_coherence()
 
 print('Coherence Score:', coherence_lda)
 
-"""## Helpful links
-* **Tutorial**: [pyLDAvis: Topic Modelling Exploration Tool That Every NLP Data Scientist Should Know](https://neptune.ai/blog/pyldavis-topic-modelling-exploration-tool-that-every-nlp-data-scientist-should-know)
-* **Concept**: [The Dirichlet Distribution: What Is It and Why Is It Useful?](https://builtin.com/data-science/dirichlet-distribution)
 
-* **Tutorial**: Part 2: [Topic Modeling and Latent Dirichlet Allocation (LDA) using Gensim and Sklearn](https://www.analyticsvidhya.com/blog/2021/06/part-2-topic-modeling-and-latent-dirichlet-allocation-lda-using-gensim-and-sklearn/)
-"""
 
